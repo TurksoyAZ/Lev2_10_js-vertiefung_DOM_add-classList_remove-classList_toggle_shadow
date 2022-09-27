@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800;6..96,900&family=Roboto:wght@100;300;400;500;700;900&family=Yusei+Magic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+  padding: 50px;
+}
+
+button {
+  background-color: #035aa6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.wrapper {
+	max-width: 500px;
+}
+
+div {
+	border-radius: 5px ;
+}
+
+
+
+/* ClassList.add/remove */
+
+.smoll{
+  border: 5px solid black;
+  color: rgb(38, 158, 19);
+}
+
+
+.forMittle{
+  border: 15px solid black;
+  border-radius: 10px;
+  color: rgb(38, 158, 19);
+}
+
+
+.forBig{
+border: 40px solid rgb(38, 158, 19);
+border-radius: 20px;
+font-family: 'Bodoni Moda', serif;
+transition-property: color,border;
+transition-duration: 2s;
+color: rgb(255, 11, 11);
+text-shadow: 0 10px 5px rgb(73, 73, 73);
+padding: 10px 50px;
+background-color: black;
+font-size: 30px;
+
+}
